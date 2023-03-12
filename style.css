@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    color: rgb(121, 196, 10);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+ font-size: 5rem;
+ margin: 0;
+}
+
+button{
+    width: 200px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#counts-btn{
+    background-color: rgb(121, 196, 10);
+    color: white;
+}
+
+#counts-save{
+    border: 1px solid rgb(121, 196, 10);
+    color: rgb(121, 196, 10);
+}
