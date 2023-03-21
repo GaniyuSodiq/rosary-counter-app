@@ -19,10 +19,10 @@ countsSave.addEventListener("click", function(){
     return count
 })
 
-// if (count = 33) {
-//     countsAlert.textContent = "You have made 33 counts"
-// } else if (count = 100) {
-//     countsAlert.textContent = "You have made 100 counts"
-// } else {
-//     countsAlert.textContent = ""
-// }
+if (count === 33) {
+    countsAlert.textContent = "You have made 33 counts"
+} else if (count === 100) {
+    countsAlert.textContent = "You have made 100 counts"
+} else {
+    countsAlert.textContent = " "
+}
