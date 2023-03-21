@@ -9,6 +9,13 @@ let count = 0
 countsBtn.addEventListener("click", function(){
     count += 1
     countsValue.textContent = count
+    if (count === 33) {
+        countsAlert.textContent = "You have made 33 counts"
+        } else if (count === 100) {
+        countsAlert.textContent = "You have made 100 counts"
+        } else {
+        countsAlert.textContent = " "
+    }
     return count
 })
 
@@ -19,10 +26,3 @@ countsSave.addEventListener("click", function(){
     return count
 })
 
-if (count === 33) {
-    countsAlert.textContent = "You have made 33 counts"
-} else if (count === 100) {
-    countsAlert.textContent = "You have made 100 counts"
-} else {
-    countsAlert.textContent = " "
-}
